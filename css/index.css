@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 2px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor{
+    margin: 50px;
+    padding: 20px;
+    background-color: #ececec;
+    border: solid ipx black;
+    width: 80%;
+}
+
+.contenedor>.titulo{
+    padding-bottom: 20px;
+    border-bottom: solid 1px rgb(190, 190, 190);
+}
+
+.contenedor>.insertarTarea{
+    padding-top: 20px;
+}
+
+.contenedor>.insertarTarea>.input{
+    display: flex;
+}
+.contenedor>.insertarTarea>.input>.ingresarTxt{
+    width: 100%;
+    margin-right: 10px;
+}
+
+.contenedor>.insertarTarea>.input>button{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contenedor>.textos{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor>.textos>.listaTareas{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    border: solid 1px black;
+}
+
+.contenedor>.textos>.listaTareas{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor>.textos>.listaTareas>.tituloTareas{
+    display: flex;
+    justify-content: start;
+}
+
+.contenedor>.textos>.listaTareas>.tituloTareas>h3{
+    padding: 15px;
+}
+
+.contenedor>.textos>.listaTareas>.listaul>.formatoList{
+    display: grid;
+    grid-template-columns: 1fr 70% 10% 10%;
+    align-items: center;
+}
+
+.contenedor>.textos>.listaTareas>.listaul>.formatoList>div{
+    width: 25%;
+}
+
+.contenedor>.textos>.listaTareas>.listaul>.formatoList>.text{
+    width: 100%;
+}
+
+.contenedor>.textos>.listaTareas>.listaul>.formatoList>.textid{
+    padding-left: 20px;
+}
+
+.boton{
+    width: 30px;
+    padding: 0;
+}
+
