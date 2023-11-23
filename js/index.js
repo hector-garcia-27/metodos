@@ -40,8 +40,7 @@ function renderizarPagina() {
 // localizaciones de id
 const ubicacionLista = document.querySelector("#listaul") // donde se agregará la lista
 const tareaInput = document.querySelector("#nuevaTarea") // texto de la nueva tarea
-const btnAgregar = document.querySelector("#registro") // donde captar la accion de agregar
-/* const checkInput = document.getElementById("check") */
+const btnAgregar = document.querySelector("#registro") // donde captar la accion de agregar 
 const totalTarea = document.querySelector("#cuentaTotal") // para punto 3
 const totalRealizado = document.querySelector("#cuentaRealizado")// para punto 5
 
